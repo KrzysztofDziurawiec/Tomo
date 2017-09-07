@@ -1,0 +1,33 @@
+/*Thumbnails styles */
+
+.thumbnails {
+    margin-left: 55px;
+    display: block;
+}
+
+.thumbnails a {
+    width: 25%;
+    box-sizing: border-box
+}
+
+.thumbnails img {
+    display: block;
+    float: left;
+    margin: 4px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+    transition: all .3s ease-in-out;
+}
+
+.thumbnails:hover img {
+    opacity: .8;
+    transform: scale(0.92);
+}
+
+.thumbnails img:hover {
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
