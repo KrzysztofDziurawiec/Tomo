@@ -1,0 +1,12 @@
+#cards {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.card {
+    border-color: transparent;
+}
+
+.card i {
+    color: #e67e22;
+}

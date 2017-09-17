@@ -1,0 +1,26 @@
+#content-separetor {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.span-separetor {
+    font-size: 18px;
+    color: #333333;
+}
+
+.team_hr {
+    width: 35.5%;
+    float: left;
+}
+
+.team_hr_left {
+    margin-right: 30px;
+}
+
+.team_hr_right {
+    margin-left: 30px;
+}
+
+.hr_gray {
+    border: 1px solid #cccccc;
+}

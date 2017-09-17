@@ -1,27 +1,48 @@
-<!-- nav bar (drop down menu) -->
-<nav id="nav" class="navbar navbar-default" role="navigation">
-    <!-- navbar-fixed-top -->
-
-
-    <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-        <a routerLink="/home" class="navbar-brand visible-xs-inline">Tomo home improvements</a>
+<div class="row">
+    <div class="container col">
+        <div class="subheader">
+            <div id="phone" class="pull-left">
+                <i class="fa fa-phone" aria-hidden="true"></i> 079 02692716
+            </div>
+            <div id="email" class="pull-right">
+                <i class="fa fa-envelope" aria-hidden="true"></i> tomohomeimprovements@gmail.com
+            </div>
+        </div>
     </div>
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-            <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
-            <li><a routerLink="/aboutUs" routerLinkActive="active">About us</a></li>
-            <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
-            <li><a routerLink="/gallery" routerLinkActive="active">Gallery</a></li>
-            <li><a routerLink="/contactUs" routerLinkActive="active">Contact us</a></li>
-        </ul>
-    </div>
+</div>
 
-    <div class="push"></div>
-
-</nav>
+<div>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded  sticky-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" routerLink="/home" routerLinkActive="active">
+            <img id="logo" src="/assets/images/logo3.png" width="220" class="d-inline-block align-top" alt="tomo">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/home" routerLinkActive="active">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/aboutUs" routerLinkActive="active">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLink="/services" routerLinkActive="active">SERVICES</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" routerLink="/services">Kitchen</a>
+                        <a class="dropdown-item" routerLink="/services">Bathroom</a>
+                        <a class="dropdown-item" routerLink="/services">Painting &amp; decorating</a>
+                        <a class="dropdown-item" routerLink="/services">Other</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/gallery" routerLinkActive="active">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contactUs" routerLinkActive="active">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>

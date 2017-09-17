@@ -14,6 +14,9 @@ import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { WhyUsCardsComponent } from './why-us-cards/why-us-cards.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     FooterComponent,
     NavigationComponent,
     HeaderComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    CarouselComponent,
+    WhyUsCardsComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

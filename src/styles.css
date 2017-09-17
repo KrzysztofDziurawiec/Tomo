@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~bootstrap/dist/css/bootstrap.css";
+@import "~/node_modulesbootstrap/dist/css/bootstrap.css";
 @import "~lightbox2/dist/css/lightbox.css";
 body {
     padding: 0;
@@ -11,7 +11,24 @@ body {
     background-attachment: fixed;
 }
 
-.jumbotron {
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+}
+
+
+/*.jumbotron {
     color: #b58d8d;
 }
 
@@ -31,7 +48,7 @@ a.thumbnail {
     border-color: transparent;
     border-width: 12px;
     background-color: #b58d8d;
-    /* background-color: #89bdd3; */
+    /* background-color: #89bdd3; 
 }
 
 .navbar .navbar-collapse {
@@ -40,7 +57,7 @@ a.thumbnail {
 
 a.tilelink {
     background-color: #c4b8b8;
-    /*background-color: #9ad3de;*/
+    /*background-color: #9ad3de;
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -55,7 +72,7 @@ a.thumbnail:hover {
     border-style: solid;
     border-width: 12px;
     background-color: #c4b8b8;
-    /*background-color: #9ad3de;*/
+    /*background-color: #9ad3de;
     text-decoration: none;
     opacity: 0.8
 }
@@ -66,4 +83,4 @@ a.thumbnail:hover {
 
 .well {
     color: #b58d8d;
-}
+}*/
