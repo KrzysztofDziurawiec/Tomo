@@ -1,7 +1,6 @@
 <form #contactForm="ngForm" (ngSubmit)="submit(contactForm)" class="contact">
     <div class="form-group">
-        <label for="fullName">Name</label>
-        <input required ngModel minlength="3" name="fullName" #fullName="ngModel" id="fullName" type="text" placeholder="Full Name" class="form-control">
+        <input required ngModel minlength="3" name="fullName" #fullName="ngModel" id="fullName" type="text" placeholder="Your Name..." class="form-control">
         <div class="alert alert-danger" *ngIf="fullName.touched && !fullName.valid">
             <div *ngIf="fullName.errors.required">
                 Full Name is required
@@ -10,9 +9,9 @@
                 Full Name minimum lenght of {{fullName.errors.minlength.requiredLength}} character required
             </div>
         </div>
-
-        <label for="email">Email</label>
-        <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ngModel name="email" id="email" #email="ngModel" type="text" placeholder="email@address.co.uk" class="form-control">
+    </div>
+    <div class="form-group">
+        <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ngModel name="email" id="email" #email="ngModel" type="text" placeholder="Your email..." class="form-control">
         <div class="alert alert-danger" *ngIf="email.touched && !email.valid">
             <div *ngIf="email.errors.required">
                 Email is required
@@ -23,8 +22,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="emailBody">Your query</label>
-        <textarea ngModel name="emailBody" id="emailBody" cols="30" rows="5" placeholder="Message" class="form-control"></textarea>
+        <textarea ngModel name="emailBody" id="emailBody" cols="30" rows="5" placeholder="Write down your message..." class="form-control"></textarea>
     </div>
     <button class="btn btn-primary">Submit</button>
 </form>

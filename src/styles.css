@@ -27,60 +27,25 @@ p {
     font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
 }
 
-
-/*.jumbotron {
-    color: #b58d8d;
+.btn-primary {
+    background-color: #114182;
+    border-color: #114182;
 }
 
-.logo img:hover {
-    opacity: 0.8;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:visited {
+    background-color: #e67e22;
+    border-color: #e67e22;
 }
 
-#content {
-    color: #ffffff;
-    background-color: #b58d8d;
-    border-color: transparent;
-    min-height: 500px;
+.btn-primary:visited {
+    background-color: #e67e22;
+    border-color: #e67e22;
 }
 
-a.thumbnail {
-    color: #ffffff;
-    border-color: transparent;
-    border-width: 12px;
-    background-color: #b58d8d;
-    /* background-color: #89bdd3; 
+.text-slogan {
+    font-size: 17px;
+    color: #929292;
+    font-style: italic;
 }
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-a.tilelink {
-    background-color: #c4b8b8;
-    /*background-color: #9ad3de;
-    color: #000000;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px;
-}
-
-.thumbnail {
-    min-height: 190px;
-}
-
-a.thumbnail:hover {
-    border-style: solid;
-    border-width: 12px;
-    background-color: #c4b8b8;
-    /*background-color: #9ad3de;
-    text-decoration: none;
-    opacity: 0.8
-}
-
-#Tile:hover {
-    border-color: #c4b8b8;
-}
-
-.well {
-    color: #b58d8d;
-}*/
