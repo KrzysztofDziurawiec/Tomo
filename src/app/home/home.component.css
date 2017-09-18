@@ -10,7 +10,7 @@
 
 .team_hr {
     width: 35.5%;
-    float: left;
+
 }
 
 .team_hr_left {
@@ -23,4 +23,12 @@
 
 .hr_gray {
     border: 1px solid #cccccc;
+}
+@media (max-width: 900px){
+    .team_hr {
+        width: 20.5%;
+
+    }
+    
+
 }
