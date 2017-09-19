@@ -1,14 +1,18 @@
-
-
 #carousel {
     height: 600px;
 }
+
+#carousel h3 {
+    color: #ffffff;
+}
+
 .d-block {
     height: 600px;
     width: 100%;
     image-rendering: -webkit-optimize-contrast;
 }
-@media (max-width: 992px){
+
+@media (max-width: 992px) {
     #carousel {
         height: 300px;
     }
@@ -17,7 +21,7 @@
     }
 }
 
-@media (max-width: 582px){
+@media (max-width: 582px) {
     #carousel {
         height: 200px;
     }

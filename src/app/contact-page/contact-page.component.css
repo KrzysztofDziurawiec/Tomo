@@ -1,15 +1,7 @@
-#services {
+#contact-page {
     padding-right: 15%;
     padding-left: 15%;
     padding-top: 40px;
     background-color: #f9f7f5;
     text-align: justify;
-}
-
-#services-list {
-    padding-left: 0;
-}
-
-#services img {
-    padding-bottom: 20px;
 }

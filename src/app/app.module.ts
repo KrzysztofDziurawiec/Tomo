@@ -17,6 +17,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { WhyUsCardsComponent } from './why-us-cards/why-us-cards.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     ContactFormComponent,
     CarouselComponent,
     WhyUsCardsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ContactPageComponent,
   ],
   imports: [
     BrowserModule,

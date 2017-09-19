@@ -1,7 +1,10 @@
-<div class="row">
-    <div class="thumbnails group">
+<div class="row" id="galery">
+    <div class="col-12">
+        <h1>Gallery</h1>
+    </div>
+    <div class="col-12 thumbnails group" id="galery-list">
         <a *ngFor="let picture of pictures" href={{picturesPath}}{{picture.fileName}} data-lightbox="gallery" title={{picture.title}}>
-            <img src={{picturesPath}}{{picture.fileName}} class="img-rounded img-responsive image">
+            <img src={{picturesPath}}{{picture.fileName}} class="img-fluid img-rounded">
         </a>
     </div>
 </div>

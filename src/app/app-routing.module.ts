@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
  
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'aboutUs', component: AboutUsComponent },
   { path: 'services',     component: ServicesComponent },
   { path: 'gallery',     component: GalleryComponent },
-  { path: 'contactUs',     component: ContactUsComponent }
+  { path: 'contactUs',     component: ContactPageComponent }
 ];
  
 @NgModule({
