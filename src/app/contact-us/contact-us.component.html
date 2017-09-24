@@ -1,19 +1,29 @@
-<div class="row" id="contactus">
-    <div class="col-7">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40194.64821061996!2d-1.3817408891097365!3d50.976131208707514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48746d0b95c9f283%3A0x5ff2bde86bbbf96e!2sEastleigh%2C+Hampshire!5e0!3m2!1sen!2suk!4v1456599179795"
-            frameborder="0" style="width:100%;height:450px"></iframe>
+<div class="row no-gutters" id="contactus">
+    <div class="col-12" [style.display]="isHome ? 'none':'block'">
+        <h1>Contact Us</h1>
+        <p>If you need a quote or just want to contact us, please fill out the form below and someone will be in contact with you as quickly as we can or call us on 079 02692716.</p>
     </div>
-    <div class="col-5">
-
-        <p><i class="fa fa-envelope" aria-hidden="true"></i> tomohomeimprovements@gmail.com</p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i> 07902692716</p>
-        <a href="http://www.checkatrade.com/TomoHomeImprovements/" class="sociallink" target="_blank">
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Checkatrade.com</p>
-        </a>
-        <a href="https://www.facebook.com/Tomo-home-improvements-1710129329275780/?fref=ts" class="sociallink" target="_blank">
-            <p><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</p>
-        </a>
-
+    <div class="col-md-7">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40194.64821061996!2d-1.3817408891097365!3d50.976131208707514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48746d0b95c9f283%3A0x5ff2bde86bbbf96e!2sEastleigh%2C+Hampshire!5e0!3m2!1sen!2suk!4v1456599179795"
+            frameborder="0" style="width:100%;height:520px"></iframe>
+    </div>
+    <div class="col-md-5">
+        <div class="contact-options">
+            <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:tomohomeimprovements@gmail.com" class="sociallink"> tomohomeimprovements@gmail.com</a></p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> 07902692716</p>
+            <a href="http://www.checkatrade.com/TomoHomeImprovements/" class="sociallink" target="_blank">
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Checkatrade.com</p>
+            </a>
+            <a href="https://www.ratedpeople.com/profile/tomo-home-improvements/" class="sociallink" target="_blank">
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ratedpeople.com</p>
+            </a>
+            <a href="https://www.yell.com/biz/tomo-home-improvements-eastleigh-8490436/" class="sociallink" target="_blank">
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Yell.com</p>
+            </a>
+            <a href="https://www.facebook.com/Tomo-home-improvements-1710129329275780/?fref=ts" class="sociallink" target="_blank">
+                <p><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</p>
+            </a>
+        </div>
         <contact-form></contact-form>
     </div>
 

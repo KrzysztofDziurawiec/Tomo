@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
   title = 'Contact us';
-  constructor() { }
+  isHome = false;
+  
+  constructor(private router:Router) { 
+       if (this.router.url.toLowerCase().toString().includes("home")){
+      this.isHome=true;
+      console.log("THIS IS ROUTER "+this.router.url.toString());
+    }
+  }
 
   ngOnInit() {
+
   }
 
 }

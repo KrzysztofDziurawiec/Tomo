@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~/node_modulesbootstrap/dist/css/bootstrap.css";
+@import "~/node_modules/bootstrap/dist/css/bootstrap.css";
 @import "~lightbox2/dist/css/lightbox.css";
 body {
     padding: 0;
@@ -57,4 +57,46 @@ h6 {
     font-size: 17px;
     color: #929292;
     font-style: italic;
+}
+
+
+/* Content separator */
+
+.content-separetor {
+    padding-top: 50px;
+}
+
+.span-separetor {
+    font-size: 18px;
+    color: #333333;
+}
+
+#sep-feedback {
+    background-color: #fafafa;
+}
+
+#sep-findus {
+    background-color: #f9f7f5;
+}
+
+.team_hr {
+    width: 35.5%;
+}
+
+.team_hr_left {
+    margin-right: 30px;
+}
+
+.team_hr_right {
+    margin-left: 30px;
+}
+
+.hr_gray {
+    border: 1px solid #cccccc;
+}
+
+@media (max-width: 900px) {
+    .team_hr {
+        width: 15.5%;
+    }
 }
